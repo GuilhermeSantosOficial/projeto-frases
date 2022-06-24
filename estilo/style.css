@@ -55,6 +55,31 @@ header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
+nav > ul{
+    background-color: black;
+}
+
+/* rgba(122, 75, 31, 0.884) */
+
+nav > ul > li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 2vw;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.986);
+    font-weight: bold;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+    color: rgb(240, 231, 231);
+    
+}
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -67,6 +92,8 @@ section{
 section > P{
     padding-bottom: 1em;
 }
+
+/* -=-=-=-=- ENVELHECER  -=-=-=-=-=- */
 
 section.normal{
     background-color: white;
@@ -101,6 +128,8 @@ section#img02{
     background-image: url("../imagens/img02.jpg");
     background-position: bottom center;
 }
+
+/* -=-=-=-=-=- SUPERAÇÃO -=-=-=-=-=-  */
 
 footer{
     color: white;
