@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 *{
@@ -134,15 +135,14 @@ section#img02{
     background-position: bottom center;
 }
 
-/* -=-=-=-=-=- SUPERAÇÃO -=-=-=-=-=-  */
-
 footer{
     color: white;
     background-color: black;
     padding: 10px;
     text-align: center;
-    
 }
+
+/* -=-=-=-=-=- SUPERAÇÃO -=-=-=-=-=-  */
 
 header.headersup{
     background: black url("../imagens/img03.jpg") no-repeat center bottom;
@@ -156,5 +156,26 @@ header > h1.sup{
     letter-spacing: 4px;
 }
 
+section#com001img{
+    background: black url("../imagens/img06.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+section.sem001{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.774);
+}
 
+section.com001 > p{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+.com001,
+.sem001{
+    font-family: 'Roboto', sans-serif;
+}
