@@ -168,6 +168,10 @@ section.sem001{
     background-size: cover;
 }
 
+section.com001{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
+}
+
 section#com001img{
     background: black url("../imagens/img04.jpg") no-repeat center center;
     background-size: cover;
