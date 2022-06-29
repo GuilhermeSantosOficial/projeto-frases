@@ -2,7 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
 
 *{
     margin: 0;
@@ -138,6 +142,18 @@ footer{
     padding: 10px;
     text-align: center;
     
+}
+
+header.headersup{
+    background: black url("../imagens/img03.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+header > h1.sup{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 11vw;
+    letter-spacing: 4px;
 }
 
 
